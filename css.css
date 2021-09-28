@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+body{
+
+}
+
+section.escopo{
+    width: 100%;
+    background-color: #0c1721;
+    height: 768px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 10%;
+}
+
+.infos {
+    text-align: left;
+    width: 35%;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.infos h1{
+    color: white;
+    font-size: 36px;
+}
+
+.infos h2{
+    color: #ed1e78;
+    font-size: 28px;
+}
+
+.infos p {
+    color: white;
+    font-size: 16px;
+}
+
+.formulario {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.formulario h1 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulario input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.formulario label {
+    font-size: 12px;
+    color: white;
+    
+}
+
+.formulario input[type="submit"]{
+    background-color: #d1364f;
+    border: none;
+    padding: 15px;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.vantagens{
+    text-align: center;
+}
+
+.vantagens h3{
+    margin-top: 5%;
+    font-size: 32px;
+}
+
+.v {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40%;
+    flex-wrap: wrap;
+    border-radius:10px;
+    margin-right: 2%;
+    padding:10px 15px;
+}
+
+.v p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.v h3{
+    margin-top: 3px;
+    font-size: 20px
+}
+
+.diferenciais{
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 95%;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #0c1721;
+    color: white;
+    padding-top: 3px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .v {
+        width: 100%;
+    }
+    .infos{
+        width: 100%;
+        text-align: center;
+    }
+    .formulario {
+        margin-top: 50px;
+        width: 90%;
+        display: block;
+    }
+    section.escopo{
+        height: 850px;
+    }
+}
